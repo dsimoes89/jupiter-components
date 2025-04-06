@@ -25,6 +25,7 @@
     "@chromatic-com/storybook": "^3.2.6",
     "@storybook/addon-essentials": "^8.6.11",
     "@storybook/addon-onboarding": "^8.6.11",
+    "@storybook/addons": "^7.6.17",
     "@storybook/blocks": "^8.6.11",
     "@storybook/experimental-addon-test": "^8.6.11",
     "@storybook/react": "^8.6.11",
