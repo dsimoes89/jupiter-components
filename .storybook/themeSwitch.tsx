@@ -11,6 +11,7 @@ export const ThemeSwitch = (Story: any) => {
   const handleTheme = () => {
     const changedTheme = !darkTheme;
 
+    document.documentElement.classList.toggle("dark", changedTheme);
     setDarkTheme(changedTheme);
     updateGlobals({
       backgrounds: {
