@@ -13,8 +13,9 @@ export function Button({ children, isLoading, ...props }: IButton) {
       {...props}
       disabled={isLoading}
       className={cn(
-        'flex items-center justify-center h-12 w-full mt-8 px-6 rounded-md disabled:cursor-not-allowe transition-all',
-        'font-medium text-[#F8F9FA] bg-primary hover:bg-secondary',
+        'flex items-center justify-center h-12 w-full mt-8 px-6 rounded-md disabled:cursor-not-allowed transition-all font-medium text-[#F8F9FA]',
+        'bg-primary hover:bg-secondary',
+        'dark:bg-primary-dark dark:hover:bg-secondary-dark',
       )}
     >
       {isLoading

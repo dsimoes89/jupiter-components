@@ -6,14 +6,12 @@ const meta: Meta<typeof Button> = {
   component: Button,
   argTypes: {
     isLoading: { control: 'boolean' },
-    onClick: { action: 'clicked' },
   },
 };
 
 export default meta;
 type Story = StoryObj<typeof Button>;
 
-// Histórias individuais
 export const Default: Story = {
   args: {
     children: 'Click me',
@@ -22,14 +20,7 @@ export const Default: Story = {
 
 export const Loading: Story = {
   args: {
-    children: 'Loading...',
+    children: 'Click me',
     isLoading: true,
-  },
-};
-
-export const Disabled: Story = {
-  args: {
-    children: 'Disabled',
-    disabled: true,
   },
 };
